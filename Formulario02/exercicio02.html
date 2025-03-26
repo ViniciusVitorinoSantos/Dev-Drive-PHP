@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <title>Formulario02</title>
+    <script>
+        function validateForm() {
+            var nome = document.forms["myForm"]["nome"].value;
+            var ano = document.forms["myForm"]["ano"].value;
+            var sexo = document.forms["myForm"]["sexo"].value;
+
+            if (nome == "") {
+                alert("Nome é obrigatório");
+                return false;
+            }
+
+            if (ano == "") {
+                alert("Ano de nascimento é obrigatório");
+                return false;
+            }
+
+            if (isNaN(ano) || ano < 1900 || ano > new Date().getFullYear()) {
+                alert("Ano de nascimento inválido");
+                return false;
+            }
+
+            if (sexo == "") {
+                alert("Sexo é obrigatório");
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+<div>
+    <form method="post" action="formulario02.php">
+        Nome: <input type="text" name="nome" placeholder="Nome"/><br/>
+        Ano de nascimento: <input type="number" id="nascimento" name="ano" placeholder="ano de nascimneto"><br/>
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masc" value="homem" checked required/>
+            <label for="masc">Masculino</label><br/>
+            <input type="radio" name="sexo" id="fem" value="mulher" required/>
+            <label for="fem">Feminino</label><br/>
+        </fieldset>
+        <br/>
+        <input type="submit" value="enviar">
+</div>
+</form>
+</body>
+</html>

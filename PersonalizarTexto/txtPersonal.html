@@ -2,26 +2,78 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-  <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/estilo.css">
     <title>Personalizar texto</title>
 </head>
 <body>
+
 <div>
-<form method="get" action="txtPersonal.php">
-    <label for="itxt">Texto:</label>
-    <input type="text" name="t" id="itxt"/><br/>
-    <label for="itam">Tamanho:</label>
-    <select for="tam" id="itam">
-        <option value="8pt">8</option>
-        <option value="10pt">10</option>
-        <option value="14pt">14</option>
-        <option value="20pt">20</option>
-        <option value="40pt">40</option>
-    </select><br/>
-    <label for="icor">Cor:</label>
-    <inut type="color" name="cor" id="icor"/><br/>
-    <input type="submit" value="gerar">
-</form>
+    <form method="post" action="txtPersonal.php" id="meuFormulario">
+
+        <label for="itxt">Texto:</label>
+        <input type="text" name="t" id="itxt"/><br/>
+        <span class="erro" id="erroTexto"></span><br/>
+
+        <label for="itam">Tamanho:</label>
+        <select name="tam" id="itam">
+            <option value="">Selecione</option>
+            <option value="8pt">8</option>
+            <option value="10pt">10</option>
+            <option value="14pt">14</option>
+            <option value="20pt">20</option>
+            <option value="40pt">40</option>
+        </select><br/>
+        <span class="erro" id="erroTamanho"></span><br>
+
+        <label for="icor">Cor:</label>
+        <input type="color" name="cor" id="icor"/><br/>
+        <span class="erro" id="erroCor"></span><br/>
+
+        <input type="submit" value="Gerar">
+    </form>
 </div>
+
+<script>
+    document.getElementById("meuFormulario").addEventListener("submit", function(event) {
+        event.preventDefault(); // Evita o envio antes da validação
+
+        // Limpa mensagens de erro
+        document.getElementById("erroTexto").textContent = "";
+        document.getElementById("erroTamanho").textContent = "";
+        document.getElementById("erroCor").textContent = "";
+
+        // Recuperar valores dos campos
+        let texto = document.getElementById("itxt").value.trim();
+        let tamanho = document.getElementById("itam").value;
+        let cor = document.getElementById("icor").value;
+
+        let isValid = true;
+
+        // Validar campo de texto
+        if (texto === "") {
+            document.getElementById("erroTexto").textContent = window.alert("O texto é obrigatório!");
+            isValid = false;
+        }
+
+        // Validar o tamanho
+        if (tamanho === "") {
+            document.getElementById("erroTamanho").textContent = window.alert("Selecione um tamanho!");
+            isValid = false;
+        }
+
+        // Validar a cor
+        if (!cor) {
+            document.getElementById("erroCor").textContent = "Escolha uma cor!";
+            isValid = false;
+        }
+
+        // Se todos os campos forem válidos, enviar o formulário
+        if (isValid) {
+            alert("Formulário válido! Gerando resultado...");
+            this.submit(); // Agora o form será enviado para o PHP
+        }
+    });
+</script>
+
 </body>
 </html>

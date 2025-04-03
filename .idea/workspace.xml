@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b008f6b-4f92-4b7e-ae02-72898ab418e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/.idea/verificar-se-pode-votar-ou-dirigir.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/formularioVerifica.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/verifica.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonalizarTexto/txtPersonal.html" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalizarTexto/txtPersonal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PersonalizarTexto/txtPersonal.php" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalizarTexto/txtPersonal.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ViniciusVitorinoSantos"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ViniciusVitorinoSantos&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ViniciusVitorinoSantos/Dev-Drive-PHP.git",
-    "accountId": "a288481b-e7f0-4db0-8cf9-40e6cc6dd7fe"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ViniciusVitorinoSantos/Dev-Drive-PHP.git&quot;,
+    &quot;accountId&quot;: &quot;a288481b-e7f0-4db0-8cf9-40e6cc6dd7fe&quot;
   }
-}]]></component>
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php\php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -43,8 +49,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "E:/Dev PHP",
     "node.js.detected.package.eslint": "true",
@@ -73,6 +81,7 @@
       <updated>1742921999204</updated>
       <workItem from="1742922000292" duration="788000" />
       <workItem from="1743028551027" duration="2184000" />
+      <workItem from="1743636956356" duration="2470000" />
     </task>
     <servers />
   </component>

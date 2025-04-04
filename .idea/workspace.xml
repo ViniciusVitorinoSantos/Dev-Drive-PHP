@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b008f6b-4f92-4b7e-ae02-72898ab418e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/.idea/verificar-se-pode-votar-ou-dirigir.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/formularioVerifica.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verificar-se-pode-votar-ou-dirigir/verifica.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0b008f6b-4f92-4b7e-ae02-72898ab418e8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +71,7 @@
       <updated>1742921999204</updated>
       <workItem from="1742922000292" duration="788000" />
       <workItem from="1743028551027" duration="2184000" />
-      <workItem from="1743636956356" duration="2470000" />
+      <workItem from="1743636956356" duration="3096000" />
     </task>
     <servers />
   </component>

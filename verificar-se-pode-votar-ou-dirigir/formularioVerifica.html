@@ -5,36 +5,15 @@
     <title>Verificação</title>
     <link rel="stylesheet" href="_css/estilo.css">
 </head>
+
 <body>
 <div>
     <form method="post" action="verifica.php">
-        <input type="text" placeholder="Digite seu nome" id="nome" name="nome"><br/>
-        <input type="number" placeholder="digite ano do seu nascimento" id="idade" name="idade"><br/>
-    <fildset>
-        <legend>Sexo</legend>
-        <input type="radio" id="masc" name="sexo" value="homem" checked required/>
-        <label for="masc" id="masc">Masculino</label>
-        <input type="radio" id="fem" name="sexo" value="mulher" required/>
-        <label for="fem" id="fem">Feminino</label>
-    </fildset><br/>
-        <input type="submit" value="enviar">
+        <h2>Ano de nascimento:</h2>
+        <input type="number" placeholder="4 Digitos" id="idade" name="ano" required><br/><br/>
+        <input type="submit" value="Verificar" id="verificar"/>
+
     </form>
 </div>
-
-<script>
-    // Aguarda o carregamento completo da página
-    window.onload = function() {
-        let nome = window.prompt("Digite seu nome para prosseguirmos");
-        let elementoNome = document.getElementById("nome");
-
-        if (nome) {
-            elementoNome.value = nome; // Preenche o input com o nome digitado
-        }
-    };
-
-
-
-
-</script>
 </body>
 </html>
